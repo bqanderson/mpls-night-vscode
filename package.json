@@ -1,0 +1,21 @@
+{
+  "name": "mpls-night",
+  "displayName": "mpls-night-vscode",
+  "description": "A dark theme for VS Code reminiscent of the summer night sky in the City of Lakes.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "mpls-night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mpls-night-color-theme.json"
+      }
+    ]
+  }
+}
